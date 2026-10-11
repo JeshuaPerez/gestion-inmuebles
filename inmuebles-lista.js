@@ -211,7 +211,7 @@ const params = new URLSearchParams(window.location.search);
 if (params.get('guardado') === '1') {
   mostrarToast('Inmueble guardado correctamente.');
   // Limpia el parámetro de la URL sin recargar
-  history.replaceState({}, '', 'inmuebles-lista.html');
+  history.replaceState({}, '', 'index.html');
 }
 
 // ── 10. INIT ──────────────────────────────────────

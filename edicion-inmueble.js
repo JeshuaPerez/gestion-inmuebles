@@ -3,7 +3,7 @@
    Funcionalidad:
    - Si URL tiene ?id=X, carga ese inmueble del localStorage
    - Botón Guardar: valida campos y guarda en localStorage
-   - Redirige a inmuebles-lista.html?guardado=1 al guardar
+   - Redirige a index.html?guardado=1 al guardar
    - Botón ✕ vuelve a la lista sin guardar
 ══════════════════════════════════════════════════ */
 
@@ -137,12 +137,12 @@ btnGuardar.addEventListener('click', () => {
   }
 
   guardarInmuebles(inmuebles);
-  window.location.href = 'inmuebles-lista.html?guardado=1';
+  window.location.href = 'index.html?guardado=1';
 });
 
 // ── 5. BOTÓN CERRAR ───────────────────────────────
 btnCerrar.addEventListener('click', () => {
-  window.location.href = 'inmuebles-lista.html';
+  window.location.href = 'index.html';
 });
 
 // ── 6. TOAST ──────────────────────────────────────

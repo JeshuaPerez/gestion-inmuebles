@@ -7,9 +7,11 @@ confirmación. Hecha con JavaScript puro, sin frameworks ni dependencias.
 Los datos viven en el `localStorage` del navegador, así que la aplicación
 funciona completa sin backend: se puede abrir y usar de inmediato.
 
+**Demo en vivo:** https://jeshuaperez.github.io/gestion-inmuebles/
+
 ## Funcionalidades
 
-**Listado (`inmuebles-lista.html`)**
+**Listado (`index.html`)**
 
 - Búsqueda en tiempo real por tipo, dirección, ciudad o propietario.
 - Paginación de 5 registros por página, que se recalcula al filtrar o eliminar
@@ -37,7 +39,7 @@ funciona completa sin backend: se puede abrir y usar de inmediato.
 ## Estructura
 
 ```
-inmuebles-lista.html   Listado, búsqueda, paginación y borrado
+index.html             Listado, búsqueda, paginación y borrado
 inmuebles-lista.js     Lógica del listado
 edicion-inmueble.html  Formulario de alta y edición
 edicion-inmueble.js    Validación y guardado
@@ -55,7 +57,7 @@ git clone https://github.com/JeshuaPerez/gestion-inmuebles.git
 cd gestion-inmuebles
 ```
 
-Abre `inmuebles-lista.html` en el navegador. Para empezar de cero, borra la
+Abre `index.html` en el navegador. Para empezar de cero, borra la
 clave `inmuebles` desde las herramientas de desarrollo (Application →
 Local Storage).
 

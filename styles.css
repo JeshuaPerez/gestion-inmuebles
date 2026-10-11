@@ -780,3 +780,36 @@ body {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+
+@media (max-width: 720px) {
+  .navbar { padding: 0 16px; height: 60px; }
+  .navbar-title { display: none; }
+  .tabs { padding: 0 8px; overflow-x: auto; }
+  .main { margin: 24px auto; padding: 0 12px; }
+
+  .toolbar { gap: 12px; }
+  .search-wrap { flex: 1; min-width: 0; }
+  .search-input { min-width: 0; width: 100%; }
+  .btn-new { white-space: nowrap; }
+
+  .property-row { flex-wrap: wrap; gap: 8px 14px; padding: 12px 14px; }
+  .prop-thumb-placeholder { width: 64px; height: 48px; }
+  .prop-type { flex: 1; min-width: 0; }
+  .prop-address { flex: 1 1 100%; order: 4; min-width: 0; }
+  .prop-price { min-width: 0; margin-left: auto; text-align: right; }
+  .prop-actions { flex: 1 1 100%; order: 5; min-width: 0; justify-content: flex-end; }
+
+  .card { padding: 20px 16px; }
+  .card-body { flex-direction: column; gap: 20px; }
+  .photo-col { width: 100%; }
+  .photo-box { width: 100%; }
+  .form-col { width: 100%; }
+  .form-grid { grid-template-columns: 1fr; }
+  .card-footer { justify-content: stretch; }
+  .btn-save { width: 100%; }
+}
+
